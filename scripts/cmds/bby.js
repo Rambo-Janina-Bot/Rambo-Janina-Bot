@@ -1,4 +1,5 @@
- const axios = require("axios");
+const { GoatWrapper } = require("fca-liane-utils");
+const axios = require("axios");
 const baseApiUrl = async () => {
   const base = await axios.get(
     `https://raw.githubusercontent.com/ARYAN-AROHI-STORE/A4YA9-A40H1/refs/heads/main/APIRUL.json`,
@@ -30,11 +31,11 @@ const shortLang = "bn";
 const lang = languagesMap[shortLang] || "bangla";
 
 module.exports.config = {
-  name: "ayra",
-  aliases: ["Ayra"],
+  name: "bby",
+  aliases: ["bot"],
   version: "1.0.0",
   role: 0,
-  author: "Dipto|ArYAN",
+  author: "dipto",//no prefix by ArYan
   description: "better then all Sim simi with multiple conversation",
   guide: { en: "[message]" },
   category: "ChatBots",
@@ -73,7 +74,7 @@ module.exports.onStart = async function ({ api, args, event }) {
     const dipto = args.join(" ").toLowerCase();
     if (!args[0]) {
       api.sendMessage(
-        "𝗽𝗹𝗲𝗮𝗰𝗲 𝘁𝗿𝘆𝗽𝗲 𝗯𝗯𝘆 𝗵𝗶 🙂",
+        "Hmm baby",
         event.threadID,
         event.messageID,
       );
@@ -111,3 +112,5 @@ module.exports.onStart = async function ({ api, args, event }) {
     );
   }
 };
+const wrapper = new GoatWrapper(module.exports);
+wrapper.applyNoPrefix({ allowPrefix: true });
