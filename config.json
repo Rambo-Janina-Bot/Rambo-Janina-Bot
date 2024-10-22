@@ -35,9 +35,9 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "61564523816700",
-    "61565025325331",
-    "100076969407340"
+    "61563779834031",
+    "61566369721724",
+    "100094271137194"
   ],
   "whiteListMode": {
     "enable": false,
@@ -48,13 +48,13 @@
     ],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "Ar Yan🍫",
-  "prefix": "*",
+  "nickNameBot": "TANIYA-YOUR BABY",
+  "prefix": "+",
   "ArYanapi": "",
   "api": "",
   "api2": "",
   "api3": "",
-  "authorName": "ArYan",
+  "authorName": "MAX RAMBO-BOT520",
   "facebook2": "https://www.facebook.com/raj.vai.404",
   "facebook": "https://www.facebook.com/ArYan.com.404",
   "email": "davidaryan397@gmail.com",
