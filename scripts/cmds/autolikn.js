@@ -28,7 +28,7 @@ module.exports = {
   config: {
     name: 'autolink',
     version: '3.0',
-    author: 'Vex_Kshitiz',
+    author: 'Max-Rambo',
     countDown: 5,
     role: 0,
     shortDescription: 'Auto video downloader for Instagram, Facebook, TikTok, Twitter, pinterest and youtube',
