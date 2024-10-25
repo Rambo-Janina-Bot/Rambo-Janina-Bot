@@ -1,9 +1,9 @@
- module.exports = {
+module.exports = {
     config: {
         name: "autoreact",
 		      version: "1.0",
-	       	author: "RAHAT 🤡",
-		      countDo wn: 5,
+	       	author: "Max-Rambo",
+		      countDown: 5,
 	       	role: 0,
 		      shortDescription: "",
 	       	longDescription: "",
