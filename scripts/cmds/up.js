@@ -3,7 +3,7 @@
     name: "up",
     aliases: ["up", "upt"],
     version: "1.0",
-    author: "ArYan",
+    author: "Max-Rambo-Bot420",
     role: 0,
     shortDescription: {
       en: "Displays the uptime of the bot."
@@ -22,7 +22,7 @@
     const minutes = Math.floor((uptime / 60) % 60);
     const hours = Math.floor((uptime / (60 * 60)) % 24);
     const days = Math.floor(uptime / (60 * 60 * 24));
-    const uptimeString = `╭──𝚂𝙺 𝙽𝙸 𝚂 𝙰𝙽 𝙱𝚘𝚃 ☔︎𝚄𝙿𝚃𝚒𝚖𝚎⏳👈\n├⏳ 𝙷𝙾𝚄𝚁𝚂 ${hours}\n├⏰ 𝙼𝙸𝙽𝚄𝚃𝙴𝚂 ${minutes}\n├⏲ 𝚂𝙴𝙲𝙾𝙽𝙳𝚂 ${seconds}\n╰───────────✰`;
+    const uptimeString = `╭──Max-Rambo-𝙱𝚘𝚃420 ☔︎𝚄𝙿𝚃𝚒𝚖𝚎⏳👈\n├⏳ 𝙷𝙾𝚄𝚁𝚂 ${hours}\n├⏰ 𝙼𝙸𝙽𝚄𝚃𝙴𝚂 ${minutes}\n├⏲ 𝚂𝙴𝙲𝙾𝙽𝙳𝚂 ${seconds}\n╰───────────✰`;
     api.sendMessage(`${uptimeString}`, event.threadID);
   }
 }
